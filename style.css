@@ -6,3 +6,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.carousel-caption{
+    bottom: 10rem;
+}
+.banner-image{
+    max-height: 700px;
+    object-fit: cover;
+}
