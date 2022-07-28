@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -12,4 +7,25 @@ body{
 .banner-image{
     max-height: 700px;
     object-fit: cover;
+}
+/* media queries */
+/* small devices */
+@media (max-width: 767px){
+    .course img{
+        width: 97%;
+        height: 60%;
+    }
+    .course-height{
+        height: 85vh;
+    }
+}
+/* extra small devices */
+@media (max-width: 575px){
+    .course img{
+        width: 97%;
+        height: 60%;
+    }
+    .course-height{
+        height: 100vh;
+    }
 }
