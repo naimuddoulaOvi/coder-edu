@@ -4,3 +4,8 @@ body{
 .carousel-item img{
     filter: brightness(0.5);
 }
+.carousel-caption{
+    bottom: initial;
+    top: 50%;
+    transform: translateY(-50%);
+}
